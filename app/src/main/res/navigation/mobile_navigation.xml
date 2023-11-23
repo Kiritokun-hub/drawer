@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_lingayen">
+
+    <fragment
+        android:id="@+id/nav_hundred"
+        android:name="com.kerbygregorio.drawer.ui.hundred.hundred"
+        android:label="@string/menu_hundred"
+        tools:layout="@layout/fragment_hundred" />
+
+    <fragment
+        android:id="@+id/nav_lingayen"
+        android:name="com.kerbygregorio.drawer.ui.lingayen.Lingayen"
+        android:label="@string/menu_lingayen"
+        tools:layout="@layout/fragment_lingayen" />
+
+    <fragment
+        android:id="@+id/nav_manaoag"
+        android:name="com.kerbygregorio.drawer.ui.manaoag.Manaoag"
+        android:label="@string/menu_manaoag"
+        tools:layout="@layout/fragment_manaoag" />
+
+    <fragment
+        android:id="@+id/nav_other_tourist_spot"
+        android:name="com.kerbygregorio.drawer.ui.tourist.tourist"
+        android:label="@string/menu_other_tourist_spot"
+        tools:layout="@layout/fragment_tourist" />
+</navigation>
